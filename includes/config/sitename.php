@@ -1,1 +1,1 @@
-CorsoDB
+AppName

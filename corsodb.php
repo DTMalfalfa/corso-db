@@ -14,13 +14,19 @@ sec_session_start();
         <title>CorsoDB</title>
         <link href="css/theme/cyborg/bootstrap.min.css" rel="stylesheet">
         <link href="css/signin.css" rel="stylesheet">
-        <link href="css/socialpak-ns.css" rel="stylesheet">
+        <link href="css/socialCSS_ns3.css" rel="stylesheet">
     </head>
 
     <body>
         <?php if (login_check($mysqli) == true) : ?>
             <?php include "includes/navbar.php"; ?>
-                        <?php include "exampleContent/friendsList.php"; ?>
+                <div class="container fixed">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <!-- add your protected content here! -->
+                        <?php include "content/corsodb_content.php"; ?>
+                    </div>
+                    <div class="col-md-3"></div>
                     <?php else : ?>
                         <div class="container">
                             <div class="col-md-3"></div>
