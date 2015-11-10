@@ -20,7 +20,7 @@ if (login_check($mysqli) == true) {
         <title>CorsoDB</title>
         <script type="text/JavaScript" src="js/sha512.js"></script>
         <script type="text/JavaScript" src="js/forms.js"></script>
-        <link href="css/theme/cyborg/bootstrap.min.css" rel="stylesheet">
+        <link href="css/theme/yeti/bootstrap.min.css" rel="stylesheet">
         <link href="css/signin.css" rel="stylesheet">
     </head>
 
@@ -56,6 +56,7 @@ if (login_check($mysqli) == true) {
             </div>
             <div class="col-md-3"></div>
         </div>
+        <?php include "includes/footer.inc.php"; ?>
         <?php include "js/footerplugins.php"; ?>
     </body>
 

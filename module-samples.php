@@ -28,30 +28,39 @@ sec_session_start();
                         <br />
                         <!-- add your protected content here! -->
                         <!-- here's some example content !-->
-                        <ul class="breadcrumb">
-                            <li><a href="#"><?php include "includes/config/sitename.php"; ?></a></li>
-                            <li><a href="#">Home</a></li>
-                            <li class="active">Member's only page</li>
-                        </ul>
-                            <img src="images/logo_banner.png" width="375" height="150">
-                            <p>
-                                Welcome to CorsoDB - the Bootstrap and PHP based Website and Application Framework :)<br />
-                                CorsoDB has many great features to get your website or app started quickly and easily - you can be sure                                   you have the best of the best with features such as:<br />
-                                <ul>
-                                    <li>Pre-built PHP and Bootstrap-based website</li>
-                                    <li>SQL Database Dump with tables pre-written</li>
-                                    <li>Register/Login PHP System</li>
-                                    <li>SHA-512 based encryption for user passwords in CorsoDB database</li>
-                                    <li>Brute-force protection system based on SQL and PHP Security</li>
-                                    <li>All available themes from <a href="https://bootswatch.com">Bootswatch.com</a></li>
-                                </ul>
-                            <br />
-                            ... and much more!<br />
-                            <br />
-                            CorsoDB Web App Framework is constantly updated with new features and fixes both from the developer AND the community - that's right, CorsoDB is on <a href="https://corsodb-webapp.sourceforge.net">SourceForge</a>! This means that developers like you can receive optional updates quickly and easily, and when you find bugs or fixes to be made, you can contribute them to CorsoDB!<br />
-                        <br />
+                        <img src="images/logo_banner.png" width="375" height="150">
+                            
+                        <!-- These are some samples of code you can use with your corsoDB application !-->
                         
-                            </p>
+                        <div class="alert alert-dismissible alert-success">
+                            <button type="button" class="close" data-dismiss="alert">&close;</button>
+                            <strong>Well done!</strong> You successfully read 
+                            <a href="#" class="alert-link">this important alert message</a>.
+                        </div>
+                        
+                        <div class="alert alert-dismissible alert-primary">
+                            <button type="button" class="close" data-dismiss="alert">&close;</button>
+                            <strong>Well done!</strong> You successfully read 
+                            <a href="#" class="alert-link">this important alert message</a>.
+                        </div>
+                        
+                        <div class="alert alert-dismissible alert-info">
+                            <button type="button" class="close" data-dismiss="alert">&close;</button>
+                            <strong>Well done!</strong> You successfully read 
+                            <a href="#" class="alert-link">this important alert message</a>.
+                        </div>
+                        
+                        <div class="alert alert-dismissible alert-warning">
+                            <button type="button" class="close" data-dismiss="alert">&close;</button>
+                            <strong>Well done!</strong> You successfully read 
+                            <a href="#" class="alert-link">this important alert message</a>.
+                        </div>
+                        
+                        <div class="alert alert-dismissible alert-danger">
+                            <button type="button" class="close" data-dismiss="alert">&close;</button>
+                            <strong>Well done!</strong> You successfully read 
+                            <a href="#" class="alert-link">this important alert message</a>.
+                        </div>
                         
                         <!-- thanks! Now you have a go! :) !-->
                     </div>

@@ -11,7 +11,7 @@ if (! $error) {
     <head>
         <meta charset="UTF-8">
         <title>Secure Login: Error</title>
-        <link rel="stylesheet" href="styles/main.css" />
+        <link href="css/theme/yeti/bootstrap.min.css" rel="stylesheet">
     </head>
 
     <body>
@@ -19,6 +19,7 @@ if (! $error) {
         <p class="error">
             <?php echo $error; ?>
         </p>
+        <?php include "includes/footer.inc.php"; ?>
     </body>
 
     </html>
