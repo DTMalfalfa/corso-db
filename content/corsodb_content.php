@@ -1,31 +1,32 @@
 <br />
 <br />
-<h1>CorsoDB</h1>
-<ul class="nav nav-tabs">
-    <li class="active"><a href="#home" data-toggle="tab">Wall</a></li>
-    <li><a href="#profile" data-toggle="tab">Profile</a></li>
-    <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-      Menu <span class="caret"></span>
-    </a>
-        <ul class="dropdown-menu">
-            <li><a href="#dropdown1" data-toggle="tab">Edit Profile</a></li>
-            <li class="divider"></li>
-            <li><a href="#dropdown2" data-toggle="tab">Account Settings</a></li>
+<br />
+<!-- add your protected content here! -->
+<!-- here's some example content !-->
+<div class="introbox">
+    <img src="images/logo_banner.png" width="375" height="150">
+    <p>
+        Welcome to CorsoDB - the Bootstrap and PHP based Website and Application Framework :)
+        <br /> CorsoDB has many great features to get your website or app started quickly and easily - you can be sure you have the best of the best with features such as:
+        <br />
+        <ul>
+            <li>Pre-built PHP and Bootstrap-based website</li>
+            <li>SQL Database Dump with tables pre-written</li>
+            <li>Register/Login PHP System</li>
+            <li>SHA-512 based encryption for user passwords in CorsoDB database</li>
+            <li>Brute-force protection system based on SQL and PHP Security</li>
+            <li>All available themes from <a href="https://bootswatch.com">Bootswatch.com</a></li>
         </ul>
-    </li>
-</ul>
-<div id="myTabContent" class="tab-content">
-    <div class="tab-pane fade active in" id="home">
-            <?php include "corsodb_wall.php"; ?>
-    </div>
-    <div class="tab-pane fade" id="profile">
-            <?php include "corsodb_profile.php"; ?>
-    </div>
-    <div class="tab-pane fade" id="dropdown1">
-            <?php include "corsodb_editprofile.php"; ?>
-    </div>
-    <div class="tab-pane fade" id="dropdown2">
-            <?php include "corsodb_accountsettings.php"; ?>
-    </div>
+        <br /> ... and much more!
+        <br />
+        <br /> CorsoDB Web App Framework is constantly updated with new features and fixes both from the developer AND the community - that's right, CorsoDB is on <a href="https://corsodb-webapp.sourceforge.net">SourceForge</a>! This means that developers like you can receive optional updates quickly and easily, and when you find bugs or fixes to be made, you can contribute them to CorsoDB!
+        <br />
+        <br />
+        <a href="#" class="btn btn-primary">Download (SF, ZIP)</a>
+        <a href="#" class="btn btn-success">View Source (GitHub)</a>
+        <a href="#" class="btn btn-info">Features</a>
+        <a href="#" class="btn btn-warning">Contact Us</a>
+    </p>
 </div>
+
+<!-- thanks! Now you have a go! :) !-->

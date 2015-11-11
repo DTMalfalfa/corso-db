@@ -14,7 +14,7 @@
     <div class="col-md-3"></div>
     <div class="col-md-6">
         <h2>Registration Successful</h2>
-        <p>You have successfully registered for access to CorsoDB. You can now return to the <a href="index.php">homepage</a> where you can sign in.</p>
+        <p>You have successfully registered for <?php include "includes/config/sitename.php"; ?>. You can now return to the <a href="index.php">homepage</a> where you can sign in.</p>
     </div>
     <div class="col-md-3"></div>
 </body>

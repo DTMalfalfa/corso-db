@@ -15,6 +15,11 @@ sec_session_start();
         <link href="css/theme/cyborg/bootstrap.min.css" rel="stylesheet">
         <link href="css/signin.css" rel="stylesheet">
         <link href="css/socialCSS_ns3.css" rel="stylesheet">
+        
+        <!-- the following CSS link is for the initial coverpage on the member's login. 
+        You can delete this line and the corresponding file safely for your own content !-->
+        <link href="css/initialCSS_ns5.css" rel="stylesheet">
+        <!-- end of initialCSS_ns5.css link !-->
     </head>
 
     <body>
@@ -42,7 +47,10 @@ sec_session_start();
                         </div>
                         <?php endif; ?>
     </body>
+    <!-- NOTICE: PLUGIN ZONE - NOTHING AFTER THESE LINES! -->
+    <!-- importing scripts using the PHP file like in index.php created an error where scripts weren't loading. !-->
+    <!-- Add your scripts here !-->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
+    <!-- end of scripts area !-->
     </html>

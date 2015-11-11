@@ -56,7 +56,7 @@ if (login_check($mysqli) == true) {
             </div>
             <div class="col-md-3"></div>
         </div>
-        <?php include "js/footerplugins.php"; ?>
+        <?php include "js/plugins.php"; ?>
     </body>
 
     </html>
