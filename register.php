@@ -14,6 +14,7 @@ include_once 'includes/functions.php';
         <script type="text/JavaScript" src="js/forms.js"></script>
         <link href="css/theme/cyborg/bootstrap.min.css" rel="stylesheet">
         <link href="css/signin.css" rel="stylesheet">
+        <link href="css/sticky-footer-navbar.css" rel="stylesheet">
     </head>
 
     <body>
@@ -47,6 +48,7 @@ include_once 'includes/functions.php';
             <p>Return to the <a href="index.php">login page</a>.</p>
             <div class="col-md-3"></div>
         </div>
+        <?php include "includes/footer.inc.php"; ?>
     </body>
 
     </html>

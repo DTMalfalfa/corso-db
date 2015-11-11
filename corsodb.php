@@ -15,7 +15,8 @@ sec_session_start();
         <link href="css/theme/cyborg/bootstrap.min.css" rel="stylesheet">
         <link href="css/signin.css" rel="stylesheet">
         <link href="css/socialCSS_ns3.css" rel="stylesheet">
-        
+        <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+
         <!-- the following CSS link is for the initial coverpage on the member's login. 
         You can delete this line and the corresponding file safely for your own content !-->
         <link href="css/initialCSS_ns5.css" rel="stylesheet">
@@ -32,6 +33,8 @@ sec_session_start();
                         <?php include "content/corsodb_content.php"; ?>
                     </div>
                     <div class="col-md-3"></div>
+                </div>
+                <?php include "includes/footer.inc.php"; ?>
                     <?php else : ?>
                         <div class="container">
                             <div class="col-md-3"></div>
@@ -45,7 +48,8 @@ sec_session_start();
                             </div>
                             <div class="col-md-3"></div>
                         </div>
-                        <?php endif; ?>
+                        <?php include "includes/footer.inc.php"; ?>
+                            <?php endif; ?>
     </body>
     <!-- NOTICE: PLUGIN ZONE - NOTHING AFTER THESE LINES! -->
     <!-- importing scripts using the PHP file like in index.php created an error where scripts weren't loading. !-->
@@ -53,4 +57,5 @@ sec_session_start();
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <!-- end of scripts area !-->
+
     </html>

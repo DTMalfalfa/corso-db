@@ -16,7 +16,8 @@ if (! $error) {
         <link href="css/theme/cyborg/bootstrap.min.css" rel="stylesheet">
         <link href="css/signin.css" rel="stylesheet">
         <link href="css/socialCSS_ns3.css" rel="stylesheet">
-        
+        <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+
         <!-- the following CSS link is for the initial coverpage on the member's login. 
         You can delete this line and the corresponding file safely for your own content !-->
         <link href="css/initialCSS_ns5.css" rel="stylesheet">
@@ -25,19 +26,21 @@ if (! $error) {
 
     <body>
         <?php include "includes/navbar.php"; ?>
-                <div class="container fixed">
-                    <div class="col-md-3"></div>
-                    <div class="col-md-6">
-                        <!-- add your protected content here! -->
-                        <br />
-                        <br />
-                        <h1><?php include "includes/config/sitename.php"; ?></h1>
-                        <?php echo $error; ?>
+            <div class="container fixed">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <!-- add your protected content here! -->
+                    <br />
+                    <br />
+                    <h1><?php include "includes/config/sitename.php"; ?></h1>
+                    <?php echo $error; ?>
                         <p>
                             <small>If you aren't sure what this means, <a href="#">Contact Us</a> and we'll help you as best we can :)</small>
                         </p>
-                    </div>
-                    <div class="col-md-3"></div>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+            <?php include "includes/footer.inc.php"; ?>
     </body>
 
     </html>

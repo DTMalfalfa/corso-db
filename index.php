@@ -22,6 +22,7 @@ if (login_check($mysqli) == true) {
         <script type="text/JavaScript" src="js/forms.js"></script>
         <link href="css/theme/cyborg/bootstrap.min.css" rel="stylesheet">
         <link href="css/signin.css" rel="stylesheet">
+        <link href="css/sticky-footer-navbar.css" rel="stylesheet">
     </head>
 
     <!-- body !-->
@@ -56,7 +57,10 @@ if (login_check($mysqli) == true) {
             </div>
             <div class="col-md-3"></div>
         </div>
-        <?php include "js/plugins.php"; ?>
+        <?php
+            include "includes/footer.inc.php";
+            include "js/plugins.php";
+        ?>
     </body>
 
     </html>
