@@ -1,0 +1,89 @@
+.helpbox_blue {
+    background-color: #13c4cb;
+    color: #000;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.helpbox_red {
+    background-color: #cb1313;
+    color: #000;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.helpbox_green {
+    background-color: #61cb13;
+    color: #000;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.helpbox_orange {
+    background-color: #cb8413;
+    color: #000;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.helpbox_violet {
+    background-color: #7d13cb;
+    color: #000;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.helpbox_yellow {
+    background-color: #c4cb13;
+    color: #000;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.helpbox_white {
+    background-color: #fff;
+    color: #000;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.helplink {
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.helpbox_left {
+    width: 70%;
+    text-align: left;
+}
+
+.helpbox_right {
+    width: 30%;
+    text-align: right;
+}

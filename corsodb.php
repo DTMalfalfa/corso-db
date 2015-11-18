@@ -12,7 +12,7 @@ sec_session_start();
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>CorsoDB</title>
-        <link href="css/theme/cyborg/bootstrap.min.css" rel="stylesheet">
+        <link href="css/theme/yeti/bootstrap.min.css" rel="stylesheet">
         <link href="css/signin.css" rel="stylesheet">
         <link href="css/socialCSS_ns3.css" rel="stylesheet">
         <link href="css/sticky-footer-navbar.css" rel="stylesheet">
@@ -27,12 +27,19 @@ sec_session_start();
         <?php if (login_check($mysqli) == true) : ?>
             <?php include "includes/navbar.php"; ?>
                 <div class="container fixed">
-                    <div class="col-md-3"></div>
+                    <div class="col-md-3">
+                        <?php include "includes/pages.inc.php"; ?>
+                    </div>
                     <div class="col-md-6">
                         <!-- add your protected content here! -->
                         <?php include "content/corsodb_content.php"; ?>
                     </div>
-                    <div class="col-md-3"></div>
+                    <div class="col-md-3">
+                        <?php include "includes/user_controls.php"; ?>
+                    </div>
+                </div>
+                </div>
+                </div>
                 </div>
                 <?php include "includes/footer.inc.php"; ?>
                     <?php else : ?>

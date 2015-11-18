@@ -18,7 +18,7 @@
         </ul>
 CorsoDB Web App Framework is constantly updated with new features and fixes both from the developer AND the community - that's right, CorsoDB is on <a href="https://corsodb-webapp.sourceforge.net">SourceForge</a>! This means that developers like you can receive optional updates quickly and easily, and when you find bugs or fixes to be made, you can contribute them to CorsoDB!
         <br />
-        <a href="#" class="btn btn-primary">Download (SF, ZIP)</a>
+        <a href="#" class="btn btn-primary">Download (Sourceforge)</a>
         <a href="#" class="btn btn-success">View Source (GitHub)</a>
         <a href="#" class="btn btn-info">Features</a>
         <a href="#" class="btn btn-warning">Contact Us</a>

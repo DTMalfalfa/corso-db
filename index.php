@@ -23,6 +23,7 @@ if (login_check($mysqli) == true) {
         <link href="css/theme/cyborg/bootstrap.min.css" rel="stylesheet">
         <link href="css/signin.css" rel="stylesheet">
         <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+        <link href="css/helpboxCSS-ns6.css" rel="stylesheet">
     </head>
 
     <!-- body !-->
@@ -38,8 +39,10 @@ if (login_check($mysqli) == true) {
                 ?>
 
                     <form action="includes/process_login.php" method="post" name="login_form" class="form-signin">
-                        <h2>CorsoDB</h2> Email:
-                        <input type="text" name="email" class="form-control" /> Password:
+                        <h2><?php include "includes/config/sitename.php"  ?></h2> 
+                        Email:
+                        <input type="text" name="email" class="form-control" /> 
+                        Password:
                         <input type="password" name="password" id="password" class="form-control" />
                         <input type="button" value="Login" onclick="formhash(this.form, this.form.password);" class="btn btn-primary" />
                     </form>
@@ -55,7 +58,34 @@ if (login_check($mysqli) == true) {
                 }
 ?>
             </div>
-            <div class="col-md-3"></div>
+            <div class="col-md-3">
+                <div class="panel panel-primary">
+                    <div class="panel-body">
+                        <h3>Need some help?</h3>
+                        <p>
+                            <a href="#">Register for <?php include "includes/config/sitename.php"; ?></a><br />
+                            <a href="#">Fogotten Password</a><br />
+                            <a href="#"><?php include "includes/config/sitename.php"; ?> Support</a><br />
+                            <br />
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="panel panel-primary">
+                    <div class="panel-body">
+                        <h3>Share <?php include "includes/config/sitename.php"; ?></h3>
+                <!-- TODO: Add official social media buttons. Users can optionally do this on their own installations - due to the nature of the button configuration tools, adding the buttons now would only link every app's links redirect to the CorsoDB sites. !-->
+                <p>
+                    <a href="#">Facebook</a><br />
+                    <a href="#">Twitter</a><br />
+                    <a href="#">Tumblr</a><br />
+                    <a href="#">Reddit</a><br />
+                    <a href="#">Ello</a><br />
+                    <a href="#">Pinterest</a><br />
+                </p>
+                    </div>
+                </div>
+            </div>
         </div>
         <?php
             include "includes/footer.inc.php";
