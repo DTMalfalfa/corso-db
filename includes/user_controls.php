@@ -62,32 +62,5 @@
                     Connect with your groups</p>
             </a>
         </div>
-        
-        <div class="friendBox">
-            <img src="images/friend_placeholder.png" class="friendPic" />
-            <img src="images/friend_placeholder.png" class="friendPic" />
-            <img src="images/friend_placeholder.png" class="friendPic" />
-            <img src="images/friend_placeholder.png" class="friendPic" />
-            <img src="images/friend_placeholder.png" class="friendPic" />
-            <br /><br /><br />
-            <img src="images/friend_placeholder.png" class="friendPic" />
-            <img src="images/friend_placeholder.png" class="friendPic" />
-            <img src="images/friend_placeholder.png" class="friendPic" />
-            <img src="images/friend_placeholder.png" class="friendPic" />
-            <img src="images/friend_placeholder.png" class="friendPic" />
-            <br /><br /><br />
-            <img src="images/friend_placeholder.png" class="friendPic" />
-            <img src="images/friend_placeholder.png" class="friendPic" />
-            <img src="images/friend_placeholder.png" class="friendPic" />
-            <img src="images/friend_placeholder.png" class="friendPic" />
-            <img src="images/friend_placeholder.png" class="friendPic" />
-            <br /><br /><br />
-            <img src="images/friend_placeholder.png" class="friendPic" />
-            <img src="images/friend_placeholder.png" class="friendPic" />
-            <img src="images/friend_placeholder.png" class="friendPic" />
-            <img src="images/friend_placeholder.png" class="friendPic" />
-            <img src="images/friend_placeholder.png" class="friendPic" />
-            <br /><br /><br />
-        </div>
     </div>
 </div>
